@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		99A287622D3E4F9B00B5313A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A287492D3E4F9A00B5313A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A287502D3E4F9A00B5313A;
+			remoteInfo = OpenCameraNGallery;
+		};
+		99A2876C2D3E4F9B00B5313A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A287492D3E4F9A00B5313A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A287502D3E4F9A00B5313A;
+			remoteInfo = OpenCameraNGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99A287512D3E4F9A00B5313A /* OpenCameraNGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCameraNGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A287612D3E4F9B00B5313A /* OpenCameraNGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCameraNGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A2876B2D3E4F9B00B5313A /* OpenCameraNGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCameraNGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		99A287532D3E4F9A00B5313A /* OpenCameraNGallery */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenCameraNGallery;
+			sourceTree = "<group>";
+		};
+		99A287642D3E4F9B00B5313A /* OpenCameraNGalleryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenCameraNGalleryTests;
+			sourceTree = "<group>";
+		};
+		99A2876E2D3E4F9B00B5313A /* OpenCameraNGalleryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenCameraNGalleryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A2874E2D3E4F9A00B5313A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A2875E2D3E4F9B00B5313A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A287682D3E4F9B00B5313A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A287482D3E4F9A00B5313A = {
+			isa = PBXGroup;
+			children = (
+				99A287532D3E4F9A00B5313A /* OpenCameraNGallery */,
+				99A287642D3E4F9B00B5313A /* OpenCameraNGalleryTests */,
+				99A2876E2D3E4F9B00B5313A /* OpenCameraNGalleryUITests */,
+				99A287522D3E4F9A00B5313A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99A287522D3E4F9A00B5313A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A287512D3E4F9A00B5313A /* OpenCameraNGallery.app */,
+				99A287612D3E4F9B00B5313A /* OpenCameraNGalleryTests.xctest */,
+				99A2876B2D3E4F9B00B5313A /* OpenCameraNGalleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A287502D3E4F9A00B5313A /* OpenCameraNGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A287752D3E4F9B00B5313A /* Build configuration list for PBXNativeTarget "OpenCameraNGallery" */;
+			buildPhases = (
+				99A2874D2D3E4F9A00B5313A /* Sources */,
+				99A2874E2D3E4F9A00B5313A /* Frameworks */,
+				99A2874F2D3E4F9A00B5313A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				99A287532D3E4F9A00B5313A /* OpenCameraNGallery */,
+			);
+			name = OpenCameraNGallery;
+			packageProductDependencies = (
+			);
+			productName = OpenCameraNGallery;
+			productReference = 99A287512D3E4F9A00B5313A /* OpenCameraNGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99A287602D3E4F9B00B5313A /* OpenCameraNGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A287782D3E4F9B00B5313A /* Build configuration list for PBXNativeTarget "OpenCameraNGalleryTests" */;
+			buildPhases = (
+				99A2875D2D3E4F9B00B5313A /* Sources */,
+				99A2875E2D3E4F9B00B5313A /* Frameworks */,
+				99A2875F2D3E4F9B00B5313A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A287632D3E4F9B00B5313A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				99A287642D3E4F9B00B5313A /* OpenCameraNGalleryTests */,
+			);
+			name = OpenCameraNGalleryTests;
+			packageProductDependencies = (
+			);
+			productName = OpenCameraNGalleryTests;
+			productReference = 99A287612D3E4F9B00B5313A /* OpenCameraNGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99A2876A2D3E4F9B00B5313A /* OpenCameraNGalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A2877B2D3E4F9B00B5313A /* Build configuration list for PBXNativeTarget "OpenCameraNGalleryUITests" */;
+			buildPhases = (
+				99A287672D3E4F9B00B5313A /* Sources */,
+				99A287682D3E4F9B00B5313A /* Frameworks */,
+				99A287692D3E4F9B00B5313A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A2876D2D3E4F9B00B5313A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				99A2876E2D3E4F9B00B5313A /* OpenCameraNGalleryUITests */,
+			);
+			name = OpenCameraNGalleryUITests;
+			packageProductDependencies = (
+			);
+			productName = OpenCameraNGalleryUITests;
+			productReference = 99A2876B2D3E4F9B00B5313A /* OpenCameraNGalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A287492D3E4F9A00B5313A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					99A287502D3E4F9A00B5313A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					99A287602D3E4F9B00B5313A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 99A287502D3E4F9A00B5313A;
+					};
+					99A2876A2D3E4F9B00B5313A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 99A287502D3E4F9A00B5313A;
+					};
+				};
+			};
+			buildConfigurationList = 99A2874C2D3E4F9A00B5313A /* Build configuration list for PBXProject "OpenCameraNGallery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A287482D3E4F9A00B5313A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 99A287522D3E4F9A00B5313A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A287502D3E4F9A00B5313A /* OpenCameraNGallery */,
+				99A287602D3E4F9B00B5313A /* OpenCameraNGalleryTests */,
+				99A2876A2D3E4F9B00B5313A /* OpenCameraNGalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A2874F2D3E4F9A00B5313A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A2875F2D3E4F9B00B5313A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A287692D3E4F9B00B5313A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A2874D2D3E4F9A00B5313A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A2875D2D3E4F9B00B5313A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A287672D3E4F9B00B5313A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A287632D3E4F9B00B5313A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A287502D3E4F9A00B5313A /* OpenCameraNGallery */;
+			targetProxy = 99A287622D3E4F9B00B5313A /* PBXContainerItemProxy */;
+		};
+		99A2876D2D3E4F9B00B5313A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A287502D3E4F9A00B5313A /* OpenCameraNGallery */;
+			targetProxy = 99A2876C2D3E4F9B00B5313A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99A287732D3E4F9B00B5313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99A287742D3E4F9B00B5313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A287762D3E4F9B00B5313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenCameraNGallery/OpenCameraNGallery.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenCameraNGallery/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app use the microphone to record video with  audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredorastello.OpenCameraNGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99A287772D3E4F9B00B5313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenCameraNGallery/OpenCameraNGallery.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenCameraNGallery/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app use the microphone to record video with  audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredorastello.OpenCameraNGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99A287792D3E4F9B00B5313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredorastello.swiftdataexample.OpenCameraNGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCameraNGallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenCameraNGallery";
+			};
+			name = Debug;
+		};
+		99A2877A2D3E4F9B00B5313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredorastello.swiftdataexample.OpenCameraNGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCameraNGallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenCameraNGallery";
+			};
+			name = Release;
+		};
+		99A2877C2D3E4F9B00B5313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredorastello.swiftdataexample.OpenCameraNGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCameraNGallery;
+			};
+			name = Debug;
+		};
+		99A2877D2D3E4F9B00B5313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfredorastello.swiftdataexample.OpenCameraNGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCameraNGallery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A2874C2D3E4F9A00B5313A /* Build configuration list for PBXProject "OpenCameraNGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A287732D3E4F9B00B5313A /* Debug */,
+				99A287742D3E4F9B00B5313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A287752D3E4F9B00B5313A /* Build configuration list for PBXNativeTarget "OpenCameraNGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A287762D3E4F9B00B5313A /* Debug */,
+				99A287772D3E4F9B00B5313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A287782D3E4F9B00B5313A /* Build configuration list for PBXNativeTarget "OpenCameraNGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A287792D3E4F9B00B5313A /* Debug */,
+				99A2877A2D3E4F9B00B5313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A2877B2D3E4F9B00B5313A /* Build configuration list for PBXNativeTarget "OpenCameraNGalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A2877C2D3E4F9B00B5313A /* Debug */,
+				99A2877D2D3E4F9B00B5313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99A287492D3E4F9A00B5313A /* Project object */;
+}
